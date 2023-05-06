@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "author" content="Gabriele Alves">
+    <meta"description" content= "Atividade para estudos de tags e elementos para html">
+    <meta name="keywords" content ="html, semantica, bold, italico, footer" >
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <title>Atividade tags HTML semanticas</title>
+</head>
+<body>
+    <h1>Atividade tags html semantica</h1>
+    <h2>Uso de Negrito</h2>
+    <p>Posso fazer o negrito usando a tag <b>B</b>, mas ela não é semântica</p>
+    <p>É melhor usar a tgag <strong> STRONG</strong>pois ela é semântica</p>
+
+    <h2>Uso de Itálico/ênfase</h2>
+    <p>Eu posso usar a tag i para fazer um <i> itálico</i>, mas não terá valor semântico</p>
+    <p>é melhor eu usar a tag<em>EM</em>pois ela é semântica e passa o significado de ênfase naquele trecho de texto</p>
+
+    <h2>texto marcado </h2>
+    <p> estamos criando um texto grande e um <small>texto pequeno</small></p>
+</body>
+</html>
