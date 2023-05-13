@@ -14,13 +14,116 @@
     <h1>Atividade tags html semantica</h1>
     <h2>Uso de Negrito</h2>
     <p>Posso fazer o negrito usando a tag <b>B</b>, mas ela não é semântica</p>
-    <p>É melhor usar a tgag <strong> STRONG</strong>pois ela é semântica</p>
+    <p>É melhor usar a tag <strong> STRONG</strong>pois ela é semântica</p>
 
     <h2>Uso de Itálico/ênfase</h2>
     <p>Eu posso usar a tag i para fazer um <i> itálico</i>, mas não terá valor semântico</p>
     <p>é melhor eu usar a tag<em>EM</em>pois ela é semântica e passa o significado de ênfase naquele trecho de texto</p>
 
     <h2>texto marcado </h2>
+    <h3> texto revisado</h3>
     <p> estamos criando um texto grande e um <small>texto pequeno</small></p>
+    <h1> texto deletado</h1>
+    <p> Podemos <ins> marcar um texto como inserido</ins> para dar ênfase e indicar que ele está....</p>
+    <p> Podemos também, <u>usar a tag U</u> para sublinhar, porém ela não é semantica</p>
+
+    <h1> texto subrescrito</h1><h1></h1>
+    <p> Utilizar SUP para as coisas do tipo H<sup>2</sup>O</p>
+    <h1> Texto pré-formatado</h1>
+    <p> Usar a tag PRE
+    <pre>                              longe
+                                    Médio
+                                perto
+                       encostado
+
+
+                       </pre>
+    </p>
+
+<h1> Código-fonte com CODE</h1>
+<P> O comando <code>document.getElementaBYid('teste") é escrito em linguagem JavaScript</code></P>
+
+<h1> código-fonte com code + pre</h1>
+<pre> <code> 
+num=int(input("digite um numero"))
+if num %2 ==0
+    printf ( f'O número (num) é PAR)
+    print ("Fim do programa")
+&lt;html&gt;
+&lt;body&gt;
+&lt;&gt;teste&lt;p&gt;
+&lt;/body&gt;
+
+
+    </code></pre>
+
+    <h1>Citações</h1>
+    <p> Posso usar Cite, para citações de obras, autores ou termos técnicos, exemplo </p>
+    <p> O advento do estilo em cascata <cite>Cascading style Sheet-CSS</cite> possibilitou possibilidades quanto a apresentação de um conteúdo em uma página html</p>
+    <h1> também posso usar Q para citações comuns</h1>
+    <p> Como diria o pai de um amigo <q> "O computador é um burro muito rápido"</q></p>
+    <p> Para citações maiores, devo usar o Blockquote. Também posso combinar com o CITE.</p>
+    <P> Trecho do livro <cite> O tempo e o vento de Erico Veríssimo</cite></P>
+    <p><Blockquote></Blockquote> cite=https://www.pensador.com/o_tempo_e_o_vento/#:~:text=Armadilhas%20do%20tempo%20s%C3%A3o%20como%20o%20vento%2C%20levando%20as%20flores,bate%20mais%20forte%20que%20antes.&text=O%20tempo%20me%20faz%2C%20o%20vento%20desfaz.
+        "Armadilhas do tempo são como o vento, levando as flores pra lugares distantes. Meu pensamento é o mesmo que o teu, mais hoje o meu coração bate mais forte que antes"</Blockquote></p>
+    <h1>Abreviações com Abrir</h1>
+    <p> Estou estudando <abbr> title="hipertext markup language"HTML </abbr>
+    e <abbr>title="cascading style sheets>CSS"</abbr> e estou gostando. </p>
+
+    <h1>Texto invertido</h1>
+    <p> Você pode escrever com um texto invertido usando tag 800 com atributo DIR "RTL" este é um exemplo.</p>
+    <p> <bdo dir="rtl"> Este é um exemplo</bdo></p>
+
+    <h1>Informações de contato</h1>
+    <p>Usar a Tag ADRESS</p>
+    <address>
+        Voce pode contatar o autor em <a href="http://www.somedomain.com/contact">www.somedomain.com</a>.<br>
+        Se encontrar qualquer bug, por favor <a href="mailto:webmaster@somedomain.com">contate o administrador do site</a>.<br>
+        Você tambem pode querer nos visitar:<br>
+        Mozilla Foundation<br>
+        1981 Landings Drive<br>
+        Building K<br>
+        Mountain View, CA 94043-0801<br>
+        USA
+        
+        <h1>cabeçalho</h1>
+        <P> Para indicar que aquele conteúdo é um cabeçalho utilize a tag Header</P>
+        <header>Eu sou um elementi que faz parte do cabeçaljo da página</header>
+
+        <h1>Rodapé</h1>
+        <p> Para indicar que aquele conteúdo é um rodapé, utilize a tag FOOTER</p>
+        <footer> Eu sou um elemento que faz parte do rodapé da página</footer>
+        <p> Também posso fazer um agrupamento de cabeçalhos com a tag Hgroup</p>
+            <hgroup class="cabeçalhos-notícias">
+            <h1>Sou o título principal</h1>
+            <h2>Eu sou um subtítulo</h2>
+        
+            </hgroup>
+
+        <h1>Diferença entre SECTION E ARTICLE</h1>
+        <p> 
+        <em><section> e <article>
+            "Qual a diferença?", você pode estar se perguntando. Ambos os elementos são usados para seccionar o conteúdo – e, sim, eles definitivamente podem ser intercambiáveis.
+             É uma questão de analisar cada situação. O HTML4 nos oferecia somente um tipo de elemento container, a <div>. Embora ela ainda seja usada em HTML5, ainda temos a possibilidade 
+            de substituí-la em duas maneiras, usando <section> e <article>.
+                <blockquote> Os elementos Section e Article são conceitualmente similares e intercambiáveis. Para decidir qual deles você deve escolher, observe o que citaremos abaixo:
+
+                1. Um article tem como objetivo ser independentemente distribuível e reclinável. 
+                2.Uma section é um temático agrupamento de conteúdos. 
+                </pre> 
+                </blockquote>
+                
+            </em>
+        </p>
+      </address>
+      <h1>Figure e Figcaption</h1>
+      <p>Figure serve para inserir conteúdos de imagem enquanto Figcaption é destinado ás legendas dessa imagem</p>
+
+      <h1>Time</h1>
+      O elemento time permite que uma data no formato ISO 8601 não ambígua seja adicionada a uma versão mais amigavel para a leitura humana daquela data. 
+      <pre><code lang="html">
+        <time datetime="2017-10-31T11:2100+02:00"></time>Terça,31 Outubro 2017</time>
+      </code></pre>
+    </p>
 </body>
 </html>
